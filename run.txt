@@ -1,0 +1,7 @@
+venv\Scripts\activate   
+python run_training.py 
+
+python outputs/evaluate.py
+python outputs/roc_curve_save.py
+python outputs/apt_score_timeline_save.py
+python outputs/model_comparison.py

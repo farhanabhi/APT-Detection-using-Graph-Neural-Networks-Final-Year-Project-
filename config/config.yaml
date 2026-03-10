@@ -1,0 +1,18 @@
+data:
+  raw_path: data/raw/logs.csv
+  snapshot_path: data/processed/snapshots.pkl
+
+temporal:
+  window: 3600
+  stride: 1800
+
+training:
+  epochs: 20
+  lr: 0.001
+  alpha: 0.75
+  gamma: 2
+
+model:
+  input_dim: 10
+  hidden_dim: 32
+  gru_hidden: 64
